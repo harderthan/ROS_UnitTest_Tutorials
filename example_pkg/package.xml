@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>example_pkg</name>
+  <version>0.0.1</version>
+  <description>The example_pkg</description>
+
+  <maintainer email="kheo1772@gmail.com">harderthan</maintainer>
+  <license>MIT</license>
+  <!-- <url type="website">http://wiki.ros.org/gtest_example</url> -->
+  <author email="kheo1772@gmail.com">harderthan</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
