@@ -1,6 +1,6 @@
 # ROS_UnitTest_Tutorials
 
-이 저장소는 [ROS wiki](http://wiki.ros.org/gtest)에서 제공하는 ROS gtest(google unittest) 가이드를 실습해보기 위한 튜토리얼 프로젝트입니다.
+이 저장소는 [ROS wiki](http://wiki.ros.org/action/show/Quality/Tutorials/UnitTesting?action=show&redirect=UnitTesting)에서 제공하는 ROS `gtest` 그리고 `rostest`에 대한 가이드를 실습해보기 위한 튜토리얼 프로젝트입니다.
 
 ---
 
