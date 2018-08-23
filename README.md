@@ -1,6 +1,6 @@
 # ROS_UnitTest_Tutorials
 
-이 저장소는 [ROS wiki](http://wiki.ros.org/gtest)에서 제공하는 ROS gtest(google unittest) 가이드를 실습해보기 위한 튜토리얼 프로젝트입니다.
+이 저장소는 [ROS wiki](http://wiki.ros.org/action/show/Quality/Tutorials/UnitTesting?action=show&redirect=UnitTesting)에서 제공하는 ROS `gtest` 그리고 `rostest`에 대한 가이드를 실습해보기 위한 튜토리얼 프로젝트입니다.
 
 ---
 
@@ -12,16 +12,12 @@
 root --- example_pkg
      |
      --- gtest_example
-     |
-     --- rostest_example
 ```
 
   * `example_pkg`
     - UnitTest Code가 포함되지 않은 샘플 ROS 패키지
   * `gtest_example`
     - API 수준(Level 1)의 테스트 패키지, `gtest` 포함.
-  * `rostest_example`
-    - Node 수준(Level 2)의 테스트 패키지, `gtest`, `rostest` 포함.
 
 ---
 
@@ -68,28 +64,6 @@ root --- example_pkg
     [----------] Global test environment tear-down
     [==========] 2 tests from 1 test case ran. (1 ms total)
     [  PASSED  ] 2 tests.
-    ```
-
-* rostest_example
-    - `$ cd /User_Path/catkin_ws/src`
-    - `$ catkin_make tests`
-    - `$ source ./devel/setup.bash`
-    - `$ rostest rostest_example rostest_example_test.launch`
-
-    ```console
-    ... logging to /path/log.log
-    [ROSUNIT] Outputting test results to /home/user/.ros/test_results/rostest_example/rostest-test_rostest_example_test.xml
-    [Testcase: testrostest_example_test] ... ok
-
-    [ROSTEST]-----------------------------------------------------------------------
-
-    [rostest_example.rosunit-rostest_example_test/basicTest][passed]
-
-    SUMMARY
-     * RESULT: SUCCESS
-     * TESTS: 1
-     * ERRORS: 0
-     * FAILURES: 0
     ```
 
 ---
