@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="rostest_example" name="rostest_example_node"  type="rostest_example_node" />
+    <test pkg="rostest_example" test-name="rostest_example_test"  type="rostest_example_test" />
+</launch>

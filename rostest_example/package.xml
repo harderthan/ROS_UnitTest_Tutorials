@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rostest_example</name>
+  <version>0.0.1</version>
+  <description>The rostest_example</description>
+
+  <maintainer email="kheo1772@gmail.com">harderthan</maintainer>
+  <license>MIT</license>
+  <url type="website">https://github.com/harderthan/ROS_UnitTest_Tutorials</url>
+  <author email="kheo1772@gmail.com">harderthan</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
